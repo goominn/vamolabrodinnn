@@ -1,16 +1,24 @@
-head{
-    
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+ 
+ :root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #5787e8;
+    --cor-background: #ffd2f3;
+ }
 
 header{
     padding: 10%;
 }
 
-body{
-    background-color: blue;
-}
 
+body {
+    font-family: "Kaushan Script", cursive;
+    background-color:var(--cor-background)
+    
+}
 footer{
     padding-top: 10%;
 }
-
